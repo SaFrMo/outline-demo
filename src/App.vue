@@ -105,7 +105,7 @@ window.addEventListener('resize', onWindowResize, false)
 // Rotation
 // ====================
 const rotation = ref(0.5)
-const rotating = ref(false)
+const rotating = ref(true)
 onBeforeRender(() => {
     if (rotating.value) {
         rotation.value -= 0.008
